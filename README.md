@@ -6,22 +6,34 @@ Curated notebook collection for learning practical GenAI workflows: text preproc
 
 ```text
 .
+├── AWS_bedrock/
+│   └── requirements.txt
 ├── Data_handling/
 │   ├── text_classification.ipynb
 │   ├── text_preprocessing.ipynb
 │   └── word_embeddings.ipynb
+├── Falcon/
+│   ├── FalconP_1_3b_.ipynb
+│   └── Multi_doc_Retrieval.ipynb
 ├── HuggingFace/
 │   ├── text_summarizer_with_huggingface.ipynb
 │   └── text_to_speech_with_huggingface.ipynb
 ├── Langchian/
-│   └── Langchain.ipynb
+│   ├── Langchain.ipynb
+│   └── RAG-/
+│       └── notebook.ipynb
+├── LLamaindex/
+│   ├── Llamaindex.ipynb
+│   └── Mistral.ipynb
 ├── Llama/
-│   └── Llama.ipynb
+│   ├── Llama.ipynb
+│   └── Llama2_with_langchain.ipynb
 ├── vectorDB/
 │   ├── ChromaDB.ipynb
 │   ├── Pinecone.ipynb
 │   └── wavelate.ipynb
-└── Llama2_with_langchain.ipynb
+├── LICENSE
+└── README.md
 ```
 
 ## Quick Start
@@ -50,6 +62,14 @@ jupyter lab
 
 Open any `.ipynb` file from the file browser.
 
+### 4) AWS Bedrock notebook dependencies (optional)
+
+If you plan to work on Bedrock workflows, install the dedicated dependency list:
+
+```bash
+pip install -r AWS_bedrock/requirements.txt
+```
+
 ## API Keys and Environment Variables
 
 Several notebooks call hosted APIs. Set keys in your shell before launching Jupyter:
@@ -68,6 +88,24 @@ Important:
 - Prefer environment variables and `os.environ.get(...)`.
 
 ## Tool-by-Tool Guide (Commands + APIs)
+
+### AWS Bedrock (`AWS_bedrock/`)
+
+Files:
+- `AWS_bedrock/requirements.txt`
+
+Install command used:
+
+```bash
+pip install -r AWS_bedrock/requirements.txt
+```
+
+Main libraries used:
+- `boto3`
+- `langchain`
+- `langchain-community`
+- `streamlit`
+- `python-dotenv`
 
 ### Data Handling (`Data_handling/`)
 
