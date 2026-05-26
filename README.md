@@ -1,6 +1,6 @@
 # GenAI Learning Archive
 
-Curated notebook collection for learning practical GenAI workflows: text preprocessing, classical NLP, Hugging Face pipelines, LangChain chains/agents, local Llama usage, and vector databases.
+Curated notebook collection for learning practical GenAI workflows: text preprocessing, classical NLP, Hugging Face pipelines, LangChain chains/agents, local Llama usage, and vector databases. 
 
 ## Repository Structure
 
