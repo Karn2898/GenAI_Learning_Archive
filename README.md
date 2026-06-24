@@ -5,7 +5,7 @@ Curated notebook collection for learning practical GenAI workflows: text preproc
 ## Repository Structure
 
 ```text
-.
+. 
 ├── AWS_bedrock/
 │   └── requirements.txt
 ├── Data_handling/
